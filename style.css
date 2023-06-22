@@ -1,0 +1,40 @@
+.container {
+    max-width: 400px;/*container ta width kto hbe jana jai*/
+    margin:0 auto;/*middle er lekhar jonne main auto lagbe*/
+  }
+  input[type="text"],
+  select,
+  input[type="number"],
+  button {
+    display: block;
+    margin-bottom: 10px;/*padding*/
+    width: 100%;
+  }
+  button {
+    padding: 5px;/*button er container er padding*/
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  .expense-list {
+    margin-top: 20px;
+  }
+  .expense-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  .expense-item span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .edit-btn,
+.delete-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
